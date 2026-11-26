@@ -1,0 +1,128 @@
+{
+  "freeze_timestamp": "2026-08-14",
+  "freeze_gate": "GATE_4 (spec sec. 81) -- complete microbiome pipeline frozen BEFORE public-cohort outcome analysis",
+  "random_seed": 2026,
+  "reference_database_versions": {
+    "note": "annotation DB versions actually used (GTDB-Tk/eggNOG/CARD/VFDB/MetaPhlAn3), added 2026-09-01 as a hygiene pass -- was not recorded at the 2026-08-14 freeze time",
+    "path": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/reports/methodological_revision_v2/db_version_freeze.md",
+    "GTDB_Tk_tool": "2.5.2",
+    "GTDB_taxonomy_release": "R226",
+    "eggNOG_mapper_db": "5.0.2",
+    "CARD": "4.0.1 (downloaded 2025-05-29)",
+    "VFDB": "setB_nt, file dated 2025-12-19 (rolling release, no version number)",
+    "MetaPhlAn3_marker_db": "mpa_v30_CHOCOPhlAn_201901"
+  },
+  "literature_library": {
+    "manifest": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/literature_prior/final/FROZEN_LIBRARY_MANIFEST.json",
+    "sha256": "637f08980647c27ea3fe52f048b2be0a7ee6a18bf60f74fcf1806d6a2a166afa"
+  },
+  "literature_core_extended_formulas": {
+    "path": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/literature_prior/final/literature_core_extended_formulas.json",
+    "sha256": "ef3e5702c17574500dfb35e835c5699187705957a6cbefb5c155e6c97c650813",
+    "bugfix_2026_08_14": "Gangnam sample-ID mapping bug fixed (see lit08 script docstring) -- 302/302 Gangnam patients now correctly populated (was 110/302)."
+  },
+  "data_driven_stability": {
+    "source": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/data_driven/feature_stability.csv",
+    "threshold_used_for_hybrid": 0.8,
+    "note": "Hybrid arm (M4) built from this threshold is FLAGGED AS LEAKED (see below) -- threshold recorded for provenance only, not endorsed for reuse without a corrected nested-within-nested implementation."
+  },
+  "preprocessing": {
+    "imputation": "median (SimpleImputer), fit on training/discovery data only",
+    "scaling": "StandardScaler, fit on training/discovery data only",
+    "high_dim_pca": {
+      "n_components": 20,
+      "blocks": [
+        "MAG_ABUND",
+        "EGGNOG_KO"
+      ],
+      "fit_on": "all 302 Gangnam discovery patients only, frozen loadings in M3_pca_loadings/",
+      "known_limitation": "Phase-2 prevalence filter (structured/*_filtered.tsv column lists) was computed on all 302 Gangnam patients unsupervised (outcome-blind) and is not re-derived per any downstream split -- documented, not silent."
+    }
+  },
+  "patient_report_templates": {
+    "L1_LiteratureCore": "patient_reports/lit_reports_L1.jsonl",
+    "L2_LiteratureExtended": "patient_reports/lit_reports_L2.jsonl",
+    "H_Hybrid": "patient_reports/lit_reports_H.jsonl",
+    "reference_percentiles": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/patient_reports/reference_percentile_distributions.json",
+    "reference_cohort": "Gangnam discovery (N=302) only, applied unchanged to public cohorts"
+  },
+  "embedding_model": {
+    "model": "text-embedding-3-large",
+    "dimension": 1024,
+    "S1_source": "L1_LiteratureCore report",
+    "S2_source": "H_Hybrid report"
+  },
+  "clustering": {
+    "method": "KMeans, K=2 (silhouette-selected, Gangnam-only per lit13b -- all-cohort clustering in lit13 found to trivially recover COHORT identity, not phenotype, and was discarded)",
+    "S1_silhouette": 0.108,
+    "S2_silhouette": 0.152,
+    "S1_cluster_mortality": {
+      "cluster_0_n": 119,
+      "cluster_0_mortality": 0.176,
+      "cluster_1_n": 183,
+      "cluster_1_mortality": 0.262
+    },
+    "S2_cluster_mortality": {
+      "cluster_0_n": 143,
+      "cluster_0_mortality": 0.203,
+      "cluster_1_n": 159,
+      "cluster_1_mortality": 0.252
+    },
+    "frozen_artifacts_dir": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/clustering/lit_phenotypes/frozen_clustering",
+    "interpretation": "weak structure (silhouette ~0.1-0.15); mortality difference between clusters is directionally plausible but not strongly supported given the weak separation -- consistent with the project's repeated finding that unsupervised structure alone carries limited information."
+  },
+  "structured_models": {
+    "M0_simple_ecology": {
+      "status": "reference baseline only, not frozen as a model artifact",
+      "internal_auroc": 0.533
+    },
+    "M1_literature_core": {
+      "path": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/supervised_semantic/frozen_models/M1_literature_core_LR.joblib",
+      "n_features": 16,
+      "internal_auroc": 0.624,
+      "external_auroc_AGI": [
+        0.618,
+        0.628
+      ],
+      "external_auroc_PRJNA842425": [
+        0.55,
+        0.567
+      ],
+      "status": "FROZEN, recommended candidate for Phase VIII/X"
+    },
+    "M2_literature_extended": {
+      "status": "not separately frozen (Core preferred; Extended's 1 extra feature was not literature-tier-anchored)",
+      "internal_auroc": 0.609
+    },
+    "M3_data_driven": {
+      "LR_path": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/supervised_semantic/frozen_models/M3_data_driven_LR.joblib",
+      "CatBoost_path": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/supervised_semantic/frozen_models/M3_data_driven_CatBoost.cbm",
+      "n_features": 908,
+      "internal_auroc_LR": 0.624,
+      "internal_auroc_CatBoost": 0.649,
+      "status": "FROZEN, recommended candidate for Phase VIII/X (best internal discriminator)"
+    },
+    "M4_hybrid": {
+      "status": "NOT FROZEN -- internal-CV result (0.841 LR / 0.721 CatBoost) confirmed LEAKED via external validation (external AUROC 0.50-0.59, WORSE than M1 alone). See supervised_semantic/model_comparison_M0_M4_external.md.",
+      "hybrid_feature_manifest": "/home/tcmhwd/microbiome/ICU_public/semantic_microbiome/hybrid/hybrid_feature_manifest.csv"
+    }
+  },
+  "semantic_models": {
+    "S1_literature_embedding": {
+      "internal_auroc": 0.504,
+      "status": "chance-level, NOT useful beyond structured features"
+    },
+    "S2_hybrid_embedding": {
+      "internal_auroc": 0.622,
+      "status": "modest, comparable to M1/M3 but adds no clear advantage over structured features; not frozen as a separate model artifact"
+    },
+    "structured_plus_semantic_hybrid": {
+      "status": "NOT FROZEN -- same leakage source as M4 (includes the same 71 stability-selected features)"
+    }
+  },
+  "known_issues_and_fixes": [
+    "2026-08-14: Gangnam sample-ID mapping bug in lit08/lit10 (192/302 patients silently NaN'd) -- FIXED.",
+    "2026-08-14: M4 Hybrid / Structured+Semantic Hybrid internal-CV leakage (stable-feature selection used the same 25-fold split later used for evaluation) -- FLAGGED, worked around via external validation (lit10b), NOT fixed at the root (would require nested-within-nested feature selection) -- these arms remain excluded from the frozen candidate set.",
+    "2026-08-14: all-cohort embedding clustering (lit13) found to trivially separate by cohort identity, not phenotype -- discarded in favor of Gangnam-only clustering (lit13b)."
+  ]
+}

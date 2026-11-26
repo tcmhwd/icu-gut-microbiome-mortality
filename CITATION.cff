@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Limited incremental value of early gut microbiome profiles for predicting in-hospital mortality in critically ill adults"
+type: software
+license: MIT
+repository-code: "https://github.com/tcmhwd/icu-gut-microbiome-mortality"
+version: "1.0.1"
+date-released: "2026-11-26"
+authors:
+  - family-names: Kwon
+    given-names: Joon-Gi
+    affiliation: "Department of Laboratory Medicine, Gangnam Severance Hospital; Research Institute of Bacterial Resistance, Yonsei University College of Medicine"
+  - family-names: Lee
+    given-names: Ja Hyun
+    affiliation: "Division of Zoonotic and Vector Borne Disease Research, Center for Infectious Disease Research, National Institute of Health, Republic of Korea"
+  - family-names: Shin
+    given-names: Jong Hyun
+    affiliation: "Department of Laboratory Medicine, Gangnam Severance Hospital; Research Institute of Bacterial Resistance, Yonsei University College of Medicine"
+  - family-names: Choi
+    given-names: Min Hyuk
+    affiliation: "Department of Laboratory Medicine, Gangnam Severance Hospital; Research Institute of Bacterial Resistance, Yonsei University College of Medicine"
+keywords:
+  - critical illness
+  - gut microbiome
+  - shotgun metagenomics
+  - in-hospital mortality
+  - risk prediction
+preferred-citation:
+  type: article
+  title: "Limited incremental value of early gut microbiome profiles for predicting in-hospital mortality in critically ill adults"
+  authors:
+    - family-names: Kwon
+      given-names: Joon-Gi
+    - family-names: Lee
+      given-names: Ja Hyun
+    - family-names: Shin
+      given-names: Jong Hyun
+    - family-names: Choi
+      given-names: Min Hyuk
+  status: submitted

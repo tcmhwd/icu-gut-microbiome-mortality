@@ -1,0 +1,474 @@
+feature_id,view,normalized_name,positive_evidence_harmful,negative_protective_evidence,null_evidence,conflicting_evidence,number_independent_cohorts,overall_evidence_tier,consistency_assessment
+diversity::Chao richness,diversity,Chao richness,0,0,1,0,0,D,insufficient
+diversity::Chao1 diversity index,diversity,Chao1 diversity index,0,0,1,0,0,D,insufficient
+diversity::Chao1 estimator,diversity,Chao1 estimator,1,0,0,0,1,D,mostly_harmful
+diversity::Gini-Simpson diversity index,diversity,Gini-Simpson diversity index,0,1,0,0,1,D,mostly_protective
+diversity::Gut Microbiome Sleep Quality Index,diversity,Gut Microbiome Sleep Quality Index,0,1,0,0,1,D,mostly_protective
+diversity::Shannon Diversity index,diversity,Shannon Diversity index,0,0,1,0,0,D,insufficient
+diversity::Shannon diversity,diversity,Shannon diversity,0,0,2,0,0,D,insufficient
+diversity::Shannon diversity index,diversity,Shannon diversity index,0,4,4,0,4,D,consistent_protective
+diversity::Shannon index,diversity,Shannon index,1,2,1,1,3,D,inconsistent
+diversity::Simpson's Diversity Index,diversity,Simpson's Diversity Index,1,0,0,0,1,D,mostly_harmful
+diversity::Sobs index,diversity,Sobs index,0,0,1,0,0,D,insufficient
+diversity::alpha diversity,diversity,alpha diversity,1,14,11,1,13,A,inconsistent
+diversity::alpha-diversity,diversity,alpha-diversity,0,1,0,0,1,A,mostly_protective
+diversity::antibiotic resistance gene diversity,diversity,antibiotic resistance gene diversity,0,0,1,0,0,D,insufficient
+diversity::antimicrobial resistance gene alpha diversity,diversity,antimicrobial resistance gene alpha diversity,1,0,0,0,1,D,mostly_harmful
+diversity::antimicrobial resistance gene beta diversity,diversity,antimicrobial resistance gene beta diversity,0,1,0,0,1,D,mostly_protective
+diversity::bacterial alpha diversity,diversity,bacterial alpha diversity,0,0,1,0,0,D,insufficient
+diversity::bacterial and fungal beta diversity,diversity,bacterial and fungal beta diversity,0,0,1,0,0,D,insufficient
+diversity::bacterial diversity,diversity,bacterial diversity,0,1,1,0,1,D,mostly_protective
+diversity::beta diversity,diversity,beta diversity,1,1,6,1,2,D,inconsistent
+diversity::beta diversity of antibiotic resistance genes,diversity,beta diversity of antibiotic resistance genes,1,0,0,0,1,D,mostly_harmful
+diversity::biogeographic gradient,diversity,biogeographic gradient,0,0,1,0,0,D,insufficient
+diversity::diversity,diversity,diversity,1,0,0,0,1,D,mostly_harmful
+diversity::diversity indexes,diversity,diversity indexes,0,1,0,0,1,D,mostly_protective
+diversity::diversity indices,diversity,diversity indices,0,0,1,0,0,D,insufficient
+diversity::evenness,diversity,evenness,1,0,0,0,1,D,mostly_harmful
+diversity::fecal biodiversity,diversity,fecal biodiversity,0,0,1,0,0,D,insufficient
+diversity::fecal microbiota biodiversity,diversity,fecal microbiota biodiversity,0,1,0,0,1,D,mostly_protective
+diversity::gut microbiome diversity,diversity,gut microbiome diversity,0,1,0,0,1,D,mostly_protective
+diversity::gut microbiota diversity,diversity,gut microbiota diversity,0,2,0,0,2,D,consistent_protective
+diversity::lung microbiota diversity,diversity,lung microbiota diversity,0,1,0,0,1,D,mostly_protective
+diversity::maximal loss of Shannon index,diversity,maximal loss of Shannon index,1,0,0,0,1,D,mostly_harmful
+diversity::microbial alpha diversity,diversity,microbial alpha diversity,0,0,1,0,0,D,insufficient
+diversity::microbial diversity,diversity,microbial diversity,0,5,7,0,5,A,consistent_protective
+diversity::microbiome diversity,diversity,microbiome diversity,0,1,2,0,1,D,mostly_protective
+diversity::microbiota alpha diversity,diversity,microbiota alpha diversity,0,0,1,0,0,D,insufficient
+diversity::observed species richness,diversity,observed species richness,0,0,1,0,0,D,insufficient
+diversity::phylogenetic diversity,diversity,phylogenetic diversity,0,1,0,0,1,D,mostly_protective
+diversity::preterm gut community types,diversity,preterm gut community types,0,1,0,0,1,D,mostly_protective
+diversity::richness,diversity,richness,1,0,0,0,1,D,mostly_harmful
+diversity::risk for death,diversity,risk for death,1,0,0,0,1,D,mostly_harmful
+diversity::species diversity,diversity,species diversity,0,1,0,0,1,D,mostly_protective
+diversity::uniqueness index,diversity,uniqueness index,0,1,0,0,1,D,mostly_protective
+function::4-OH-phenyllactic acid,function,4-OH-phenyllactic acid,0,0,1,0,0,D,insufficient
+function::4-[(hydroxymethyl)nitrosoamino]-1-(3-pyridinyl)-1-butanone,function,4-[(hydroxymethyl)nitrosoamino]-1-(3-pyridinyl)-1-butanone,0,1,0,0,1,D,mostly_protective
+function::5-Fluorouracil treatment,function,5-Fluorouracil treatment,0,0,1,0,0,D,insufficient
+function::5-OH-indole-3-acetic acid,function,5-OH-indole-3-acetic acid,0,0,1,0,0,D,insufficient
+function::APACHE II score,function,APACHE II score,1,0,0,0,1,D,mostly_harmful
+function::Aeromonadaceae,function,Aeromonadaceae,1,0,0,0,1,D,mostly_harmful
+function::Asparagine,function,Asparagine,0,1,0,0,1,D,mostly_protective
+function::BCAA degradation pathway,function,BCAA degradation pathway,0,1,0,0,1,D,mostly_protective
+function::Bacteroidetes,function,Bacteroidetes,1,0,0,0,1,D,mostly_harmful
+function::Bifidobacterium,function,Bifidobacterium,0,1,0,0,1,D,mostly_protective
+function::C. difficile infections,function,C. difficile infections,0,0,1,0,0,D,insufficient
+function::CAZyme genes,function,CAZyme genes,0,0,1,0,0,D,insufficient
+"function::Decayed, Missing, and Filled Teeth index",function,"Decayed, Missing, and Filled Teeth index",1,0,0,0,1,D,mostly_harmful
+function::Deferoxamine treatment,function,Deferoxamine treatment,0,0,1,0,0,D,insufficient
+function::ESBL production,function,ESBL production,1,0,0,0,1,D,mostly_harmful
+function::Enterococcus faecium DNA positivity,function,Enterococcus faecium DNA positivity,1,0,0,0,1,B,mostly_harmful
+function::Eubacterium,function,Eubacterium,0,1,0,0,1,D,mostly_protective
+function::FadA,function,FadA,1,0,0,0,1,D,mostly_harmful
+function::Faecalibacterium,function,Faecalibacterium,0,1,0,0,1,D,mostly_protective
+function::GABA-consuming bacteria,function,GABA-consuming bacteria,0,0,1,0,0,D,insufficient
+function::Glycoursodeoxycholic acid,function,Glycoursodeoxycholic acid,1,0,0,0,1,D,mostly_harmful
+function::ICU admission,function,ICU admission,0,0,1,0,0,D,insufficient
+function::IFN-γ expression,function,IFN-γ expression,0,1,0,0,1,D,mostly_protective
+function::IL-1β expression,function,IL-1β expression,0,1,0,0,1,D,mostly_protective
+function::IL-8 expression,function,IL-8 expression,0,1,0,0,1,D,mostly_protective
+function::KEGG pathways,function,KEGG pathways,0,0,2,0,0,D,insufficient
+function::KpsM,function,KpsM,1,0,0,0,1,D,mostly_harmful
+function::L. lactis antibacterial effect,function,L. lactis antibacterial effect,0,1,0,0,1,D,mostly_protective
+function::L. lactis intervention on V. cholerae colonization,function,L. lactis intervention on V. cholerae colonization,0,0,1,0,0,D,insufficient
+function::SCORAD index,function,SCORAD index,0,0,1,0,0,D,insufficient
+function::T-cell signaling,function,T-cell signaling,0,1,0,0,1,B,mostly_protective
+function::TGR5 receptor activation,function,TGR5 receptor activation,0,0,1,0,0,D,insufficient
+function::TNF-α expression,function,TNF-α expression,0,1,0,0,1,D,mostly_protective
+function::UDP-GlcNAc synthesis/recycling pathway genes,function,UDP-GlcNAc synthesis/recycling pathway genes,0,0,1,0,0,D,insufficient
+function::abundance and diversity of antibiotic resistance genes,function,abundance and diversity of antibiotic resistance genes,0,0,1,0,0,D,insufficient
+function::acetate and butyrate levels,function,acetate and butyrate levels,0,1,0,0,1,D,mostly_protective
+function::acetic acid,function,acetic acid,0,1,0,0,1,D,mostly_protective
+function::acute GVHD mortality,function,acute GVHD mortality,1,0,0,0,1,D,mostly_harmful
+function::acute gut/liver GVHD,function,acute gut/liver GVHD,1,0,0,0,1,D,mostly_harmful
+function::aminoglycoside ARGs,function,aminoglycoside ARGs,1,0,0,0,1,D,mostly_harmful
+function::aminoglycoside antimicrobial resistance genes,function,aminoglycoside antimicrobial resistance genes,0,0,1,0,0,D,insufficient
+function::aminoglycoside-O-phosphotransferases,function,aminoglycoside-O-phosphotransferases,0,0,1,0,0,D,insufficient
+function::ammonia,function,ammonia,1,0,0,0,1,D,mostly_harmful
+function::antibiotic resistance,function,antibiotic resistance,1,0,1,0,1,B,mostly_harmful
+function::antibiotic resistance gene abundances,function,antibiotic resistance gene abundances,1,0,0,0,1,A,mostly_harmful
+function::antibiotic resistance genes,function,antibiotic resistance genes,3,0,4,0,3,D,consistent_harmful
+function::antibiotic-resistance genes,function,antibiotic-resistance genes,0,0,1,0,0,D,insufficient
+function::antimicrobial resistance gene abundance,function,antimicrobial resistance gene abundance,1,0,0,0,1,D,mostly_harmful
+function::antimicrobial resistance gene detection,function,antimicrobial resistance gene detection,0,0,1,0,0,D,insufficient
+function::antimicrobial resistance gene expression,function,antimicrobial resistance gene expression,1,0,0,0,1,D,mostly_harmful
+function::antimicrobial resistance genes,function,antimicrobial resistance genes,1,0,2,0,1,B,mostly_harmful
+function::antimicrobial susceptibility,function,antimicrobial susceptibility,0,0,1,0,0,D,insufficient
+function::association between vitamin D deficiency and intestinal dysbiosis,function,association between vitamin D deficiency and intestinal dysbiosis,0,0,1,0,0,D,insufficient
+function::bacterial relative dominance,function,bacterial relative dominance,1,0,0,0,1,B,mostly_harmful
+function::bacterial translocation incidence,function,bacterial translocation incidence,1,0,0,0,1,D,mostly_harmful
+function::bacterial virulence gene homologs,function,bacterial virulence gene homologs,1,0,0,0,1,D,mostly_harmful
+function::beta-lactam ARGs,function,beta-lactam ARGs,1,0,0,0,1,D,mostly_harmful
+function::beta-lactam antimicrobial resistance genes,function,beta-lactam antimicrobial resistance genes,0,0,1,0,0,D,insufficient
+function::beta-lactam resistance,function,beta-lactam resistance,1,0,0,0,1,D,mostly_harmful
+function::bioactive metabolites,function,bioactive metabolites,0,0,1,0,0,D,insufficient
+function::biocide and metal resistance genes,function,biocide and metal resistance genes,0,1,0,0,1,D,mostly_protective
+function::butyric acid,function,butyric acid,0,1,0,0,1,D,mostly_protective
+function::cadaverine,function,cadaverine,1,0,0,0,1,B,mostly_harmful
+function::carbapenem exposure,function,carbapenem exposure,0,0,1,0,0,D,insufficient
+function::carbapenem resistance genes,function,carbapenem resistance genes,0,0,1,0,0,D,insufficient
+function::carbapenemase OXA-833 gene,function,carbapenemase OXA-833 gene,1,0,0,0,1,B,mostly_harmful
+function::carbapenemase gene blaNDM-1,function,carbapenemase gene blaNDM-1,1,0,0,0,1,D,mostly_harmful
+"function::carbohydrate fermentation, hydrogen production, hydrogen sulfide production",function,"carbohydrate fermentation, hydrogen production, hydrogen sulfide production",1,0,0,0,1,D,mostly_harmful
+function::carbohydrate metabolism,function,carbohydrate metabolism,1,0,0,0,1,D,mostly_harmful
+function::colistin-resistant organisms,function,colistin-resistant organisms,1,0,0,0,1,D,mostly_harmful
+function::deoxycholic acid treatment,function,deoxycholic acid treatment,0,0,1,0,0,D,insufficient
+function::endotoxemia,function,endotoxemia,0,0,1,0,0,D,insufficient
+function::enteral feeding,function,enteral feeding,0,0,1,0,0,D,insufficient
+function::ethanolamine utilization pathway,function,ethanolamine utilization pathway,0,0,1,0,0,D,insufficient
+function::faecal I-FABP,function,faecal I-FABP,1,0,0,0,1,D,mostly_harmful
+function::faecal S100A12,function,faecal S100A12,0,0,1,0,0,D,insufficient
+function::faecal calprotectin,function,faecal calprotectin,1,0,0,0,1,D,mostly_harmful
+function::fatty acids and phospholipids,function,fatty acids and phospholipids,0,0,1,0,0,D,insufficient
+function::fecal acetate,function,fecal acetate,0,1,0,0,1,A,mostly_protective
+function::fecal butyrate levels,function,fecal butyrate levels,0,1,0,0,1,D,mostly_protective
+function::fecal butyric acid,function,fecal butyric acid,0,0,1,0,0,D,insufficient
+function::fermentation products,function,fermentation products,1,0,0,0,1,D,mostly_harmful
+function::functional abundance spectrum,function,functional abundance spectrum,0,0,1,0,0,D,insufficient
+function::functional redundancy,function,functional redundancy,0,1,0,0,1,D,mostly_protective
+function::health risk of antibiotic resistance genes,function,health risk of antibiotic resistance genes,0,0,1,0,0,D,insufficient
+function::heterolactic fermentation pathway,function,heterolactic fermentation pathway,0,0,1,0,0,D,insufficient
+function::hippuric acid,function,hippuric acid,2,0,0,0,2,D,consistent_harmful
+function::human milk oligosaccharides,function,human milk oligosaccharides,0,0,1,0,0,D,insufficient
+function::impact on the microbiome in critical illness,function,impact on the microbiome in critical illness,0,0,1,0,0,D,insufficient
+function::indole,function,indole,0,0,1,0,0,D,insufficient
+function::indole-3-propionate,function,indole-3-propionate,1,0,0,0,1,B,mostly_harmful
+function::indole-3-propionic acid,function,indole-3-propionic acid,0,0,1,0,0,D,insufficient
+function::indole-3-pyruvic acid,function,indole-3-pyruvic acid,0,0,1,0,0,D,insufficient
+function::inosine biosynthesis pathways,function,inosine biosynthesis pathways,0,1,0,0,1,D,mostly_protective
+function::intestinal E. coli translocation,function,intestinal E. coli translocation,0,0,1,0,0,D,insufficient
+function::invasive mechanical ventilation,function,invasive mechanical ventilation,1,0,0,0,1,D,mostly_harmful
+function::isovalerate,function,isovalerate,1,0,0,0,1,D,mostly_harmful
+function::kynurenine metabolism,function,kynurenine metabolism,1,0,0,0,1,B,mostly_harmful
+function::long-chain fatty acid metabolism,function,long-chain fatty acid metabolism,0,0,1,0,0,D,insufficient
+function::lung inflammatory response,function,lung inflammatory response,0,0,1,0,0,D,insufficient
+function::menaquinone biosynthesis,function,menaquinone biosynthesis,0,1,0,0,1,D,mostly_protective
+function::microbial functional pathways,function,microbial functional pathways,0,0,1,0,0,D,insufficient
+function::microbial mass,function,microbial mass,1,0,0,0,1,B,mostly_harmful
+function::mixed-acid fermentation pathway,function,mixed-acid fermentation pathway,0,0,1,0,0,D,insufficient
+function::multi-biocide resistance genes,function,multi-biocide resistance genes,0,1,0,0,1,D,mostly_protective
+function::multidrug efflux proteins,function,multidrug efflux proteins,0,0,1,0,0,D,insufficient
+function::multidrug resistance,function,multidrug resistance,1,0,1,0,1,D,mostly_harmful
+function::multidrug resistance genes,function,multidrug resistance genes,1,0,0,0,1,D,mostly_harmful
+function::multidrug-resistant organisms,function,multidrug-resistant organisms,1,0,0,0,1,D,mostly_harmful
+function::neutrophil degranulation,function,neutrophil degranulation,1,0,0,0,1,B,mostly_harmful
+function::overall mortality,function,overall mortality,0,1,0,0,1,B,mostly_protective
+function::overall mortality rate,function,overall mortality rate,0,0,1,0,0,B,insufficient
+function::p-cresol,function,p-cresol,0,0,1,0,0,D,insufficient
+function::periodontal pockets,function,periodontal pockets,2,0,0,0,1,D,consistent_harmful
+function::phenylacetyl glutamine and phenylacetyl glycine,function,phenylacetyl glutamine and phenylacetyl glycine,0,0,1,0,0,D,insufficient
+function::phosphatidylcholine,function,phosphatidylcholine,0,1,0,0,1,D,mostly_protective
+function::phosphatidylethanolamine,function,phosphatidylethanolamine,0,1,0,0,1,D,mostly_protective
+function::phosphatidylserine,function,phosphatidylserine,0,1,0,0,1,D,mostly_protective
+function::plasma homocysteine levels,function,plasma homocysteine levels,1,0,1,0,1,B,mostly_harmful
+function::plasmid replicons,function,plasmid replicons,0,0,1,0,0,D,insufficient
+function::polymyxin resistance genes,function,polymyxin resistance genes,0,0,1,0,0,D,insufficient
+function::probiotics,function,probiotics,0,0,1,0,0,D,insufficient
+function::pyrrolidine,function,pyrrolidine,1,0,0,0,1,D,mostly_harmful
+function::quinolone-resistance gene QnrB4,function,quinolone-resistance gene QnrB4,1,0,0,0,1,B,mostly_harmful
+function::redox homeostasis,function,redox homeostasis,0,0,1,0,0,D,insufficient
+function::relationship between ICU exposure duration and ARG abundance,function,relationship between ICU exposure duration and ARG abundance,0,0,1,0,0,D,insufficient
+function::risk of positive gastrointestinal PCR,function,risk of positive gastrointestinal PCR,0,1,0,0,1,D,mostly_protective
+function::serotonin turnover,function,serotonin turnover,0,1,0,0,1,D,mostly_protective
+function::serum inosine,function,serum inosine,0,1,0,0,1,D,mostly_protective
+function::short-chain fatty acid and L-isoleucine biosynthesis,function,short-chain fatty acid and L-isoleucine biosynthesis,0,0,1,0,0,D,insufficient
+function::short-chain fatty acid biosynthesis,function,short-chain fatty acid biosynthesis,0,1,0,0,1,D,mostly_protective
+function::short-chain fatty acid levels,function,short-chain fatty acid levels,0,0,1,0,0,D,insufficient
+function::short-chain fatty acid metabolism,function,short-chain fatty acid metabolism,1,0,0,0,1,D,mostly_harmful
+function::short-chain fatty acid producers,function,short-chain fatty acid producers,0,0,1,0,0,D,insufficient
+function::short-chain fatty acids,function,short-chain fatty acids,1,4,2,1,4,D,inconsistent
+function::splanchnic oxygenation,function,splanchnic oxygenation,2,0,0,0,1,D,consistent_harmful
+function::sulfur amino acid metabolism,function,sulfur amino acid metabolism,0,1,0,0,1,D,mostly_protective
+function::survival rate,function,survival rate,0,2,0,0,2,D,consistent_protective
+function::survival superiority,function,survival superiority,0,1,0,0,1,D,mostly_protective
+function::syringic acid,function,syringic acid,0,1,0,0,1,D,mostly_protective
+function::tetracycline ARGs,function,tetracycline ARGs,1,0,0,0,1,D,mostly_harmful
+function::tetracycline antimicrobial resistance genes,function,tetracycline antimicrobial resistance genes,0,0,1,0,0,D,insufficient
+function::tetracycline resistance,function,tetracycline resistance,0,1,0,0,1,D,mostly_protective
+function::tetracycline resistance genes,function,tetracycline resistance genes,0,1,0,0,1,D,mostly_protective
+function::total abundance of antibiotic resistance genes,function,total abundance of antibiotic resistance genes,0,0,1,0,0,D,insufficient
+function::total abundance of virulence factor genes,function,total abundance of virulence factor genes,0,0,1,0,0,D,insufficient
+function::total antibiotic resistance gene abundance,function,total antibiotic resistance gene abundance,1,0,0,0,1,D,mostly_harmful
+function::trimethylamine N-oxide (TMAO),function,trimethylamine N-oxide (TMAO),0,0,1,0,0,D,insufficient
+function::tryptophan metabolism,function,tryptophan metabolism,1,0,1,0,1,B,mostly_harmful
+function::tryptophan metabolites,function,tryptophan metabolites,0,0,1,0,0,D,insufficient
+function::urate production,function,urate production,1,0,0,0,1,D,mostly_harmful
+function::urea production,function,urea production,1,0,0,0,1,D,mostly_harmful
+function::urinary I-FABP,function,urinary I-FABP,1,0,0,0,1,D,mostly_harmful
+function::valeric acid,function,valeric acid,0,1,0,0,1,D,mostly_protective
+function::virulence factors,function,virulence factors,0,0,2,0,0,D,insufficient
+function::vitamin metabolism,function,vitamin metabolism,0,1,0,0,1,D,mostly_protective
+function::β-glucuronidase activity,function,β-glucuronidase activity,0,0,1,0,0,D,insufficient
+function::β-lactam resistance genes,function,β-lactam resistance genes,0,1,0,0,1,D,mostly_protective
+function::β-lactamases,function,β-lactamases,0,0,1,0,0,D,insufficient
+other::10-year survival,other,10-year survival,0,1,0,0,1,B,mostly_protective
+other::5-year survival,other,5-year survival,0,1,0,0,1,B,mostly_protective
+other::AST level,other,AST level,1,0,0,0,1,D,mostly_harmful
+other::Anemia,other,Anemia,0,0,1,0,0,D,insufficient
+other::Association between iron deficiency and anemia,other,Association between iron deficiency and anemia,1,0,0,0,1,D,mostly_harmful
+other::C+ patients mortality,other,C+ patients mortality,1,0,0,0,1,D,mostly_harmful
+other::DII and breast cancer by menopausal status,other,DII and breast cancer by menopausal status,0,0,1,0,0,D,insufficient
+other::Dietary Inflammatory Index,other,Dietary Inflammatory Index,0,0,1,0,0,D,insufficient
+other::Glasgow Coma Scale score ≤ 8,other,Glasgow Coma Scale score ≤ 8,1,0,0,0,1,B,mostly_harmful
+other::Iron deficiency,other,Iron deficiency,0,0,1,0,0,D,insufficient
+other::S. boulardii and nosocomial infections,other,S. boulardii and nosocomial infections,0,1,0,0,1,D,mostly_protective
+other::abnormal cranial MRI findings,other,abnormal cranial MRI findings,1,0,0,0,1,B,mostly_harmful
+other::antimicrobial resistance,other,antimicrobial resistance,0,0,1,0,0,D,insufficient
+other::claudin-2 deletion,other,claudin-2 deletion,0,1,0,0,1,D,mostly_protective
+other::deaths in mustard oil and sunflower oil groups,other,deaths in mustard oil and sunflower oil groups,0,0,1,0,0,B,insufficient
+other::disease-free survival,other,disease-free survival,0,1,0,0,1,D,mostly_protective
+other::febrile neutropenia-related mortality,other,febrile neutropenia-related mortality,0,0,1,0,0,B,insufficient
+other::glutamate,other,glutamate,0,0,1,0,0,D,insufficient
+other::guild-level microbiome index,other,guild-level microbiome index,1,0,0,0,1,B,mostly_harmful
+other::gut microbiota dysbiosis,other,gut microbiota dysbiosis,0,0,1,0,0,D,insufficient
+other::heart failure,other,heart failure,0,0,1,0,0,D,insufficient
+other::hospitalized mortality,other,hospitalized mortality,1,0,0,0,1,D,mostly_harmful
+other::infection-associated mortality,other,infection-associated mortality,0,0,1,0,0,D,insufficient
+other::intestinal barrier damage and inflammation,other,intestinal barrier damage and inflammation,0,0,1,0,0,D,insufficient
+other::mortality rate,other,mortality rate,1,0,0,0,1,B,mostly_harmful
+other::mortality rate associated with NEC-T,other,mortality rate associated with NEC-T,1,0,0,0,1,B,mostly_harmful
+other::multidrug resistant decolonization,other,multidrug resistant decolonization,0,1,0,0,1,D,mostly_protective
+other::osteoporosis prevalence,other,osteoporosis prevalence,1,0,0,0,1,D,mostly_harmful
+other::overall survival,other,overall survival,0,1,0,0,1,D,mostly_protective
+other::positive blood cultures,other,positive blood cultures,0,0,1,0,0,D,insufficient
+other::positivity rate of NGS diagnostics,other,positivity rate of NGS diagnostics,0,0,1,0,0,D,insufficient
+other::probiotic supplementation,other,probiotic supplementation,1,0,0,0,1,B,mostly_harmful
+other::proton pump inhibitors,other,proton pump inhibitors,1,0,0,0,1,D,mostly_harmful
+other::rate of bone loss,other,rate of bone loss,0,0,1,0,0,D,insufficient
+other::serum total bile acid levels,other,serum total bile acid levels,1,0,0,0,1,B,mostly_harmful
+other::severe osteoporosis prevalence,other,severe osteoporosis prevalence,1,0,0,0,1,D,mostly_harmful
+other::steroids,other,steroids,1,0,0,0,1,D,mostly_harmful
+other::survival rate among infants with NEC-T,other,survival rate among infants with NEC-T,0,1,0,0,1,B,mostly_protective
+other::survival rates,other,survival rates,0,1,0,0,1,D,mostly_protective
+other::taurine,other,taurine,0,0,1,0,0,D,insufficient
+other::total bile acid,other,total bile acid,1,0,0,0,1,B,mostly_harmful
+ratio::Bacteroidetes/Firmicutes ratio,ratio,Bacteroidetes/Firmicutes ratio,1,0,0,0,1,A,mostly_harmful
+ratio::Firmicutes to Bacteroidetes ratio,ratio,Firmicutes to Bacteroidetes ratio,0,1,0,0,1,D,mostly_protective
+ratio::Firmicutes/Bacteroidetes ratio,ratio,Firmicutes/Bacteroidetes ratio,1,0,0,0,1,D,mostly_harmful
+ratio::Lactobacillaceae/Enterobacteriaceae ratio,ratio,Lactobacillaceae/Enterobacteriaceae ratio,0,1,0,0,1,D,mostly_protective
+ratio::microbiome mortality index,ratio,microbiome mortality index,1,0,0,0,1,A,mostly_harmful
+ratio::strict-to-facultative anaerobe ratio,ratio,strict-to-facultative anaerobe ratio,0,1,0,0,1,B,mostly_protective
+resistome::antibiotic resistance gene subtypes,resistome,antibiotic resistance gene subtypes,1,0,0,0,1,B,mostly_harmful
+resistome::antibiotic resistance genes,resistome,antibiotic resistance genes,2,0,2,0,2,D,consistent_harmful
+resistome::antimicrobial resistance genes,resistome,antimicrobial resistance genes,0,0,1,0,0,D,insufficient
+resistome::beta-lactam resistance genes,resistome,beta-lactam resistance genes,2,0,0,0,2,D,consistent_harmful
+resistome::gut resistome,resistome,gut resistome,0,0,1,0,0,D,insufficient
+resistome::heavy metal resistance genes,resistome,heavy metal resistance genes,0,0,1,0,0,D,insufficient
+resistome::hmrM gene,resistome,hmrM gene,1,0,0,0,1,D,mostly_harmful
+resistome::macrolide resistance genes,resistome,macrolide resistance genes,2,0,0,0,1,D,consistent_harmful
+resistome::metal resistance genes,resistome,metal resistance genes,1,0,0,0,1,D,mostly_harmful
+resistome::multidrug resistance,resistome,multidrug resistance,1,0,0,0,1,D,mostly_harmful
+resistome::multidrug resistance genes,resistome,multidrug resistance genes,0,0,1,0,0,D,insufficient
+resistome::tetracycline resistance genes,resistome,tetracycline resistance genes,1,0,1,0,1,D,mostly_harmful
+taxonomy::Achromobacter,taxonomy,Achromobacter,1,0,0,0,1,D,mostly_harmful
+taxonomy::Acinetobacter,taxonomy,Acinetobacter,1,1,1,1,2,D,inconsistent
+"taxonomy::Acinetobacter, Escherichia-shigella",taxonomy,"Acinetobacter, Escherichia-shigella",1,0,0,0,1,D,mostly_harmful
+taxonomy::Actinobacteria,taxonomy,Actinobacteria,4,4,0,1,8,D,inconsistent
+taxonomy::Actinomyces,taxonomy,Actinomyces,1,0,0,0,1,D,mostly_harmful
+taxonomy::Actinomyces odontolyticus,taxonomy,Actinomyces odontolyticus,1,0,0,0,1,D,mostly_harmful
+taxonomy::Actinomycetaceae,taxonomy,Actinomycetaceae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Adlercreutzia,taxonomy,Adlercreutzia,0,1,0,0,1,D,mostly_protective
+taxonomy::Adlercreutzia equolifaciens,taxonomy,Adlercreutzia equolifaciens,0,0,1,0,0,D,insufficient
+taxonomy::Akkermansia,taxonomy,Akkermansia,0,1,0,0,1,D,mostly_protective
+taxonomy::Akkermansia muciniphila,taxonomy,Akkermansia muciniphila,0,2,1,0,2,D,consistent_protective
+taxonomy::Alistipes,taxonomy,Alistipes,0,1,0,0,1,D,mostly_protective
+taxonomy::Anaerococcus,taxonomy,Anaerococcus,1,0,0,0,1,D,mostly_harmful
+taxonomy::Aspergillus fumigatus,taxonomy,Aspergillus fumigatus,0,0,1,0,0,D,insufficient
+taxonomy::Bacilli,taxonomy,Bacilli,2,0,0,0,2,D,consistent_harmful
+taxonomy::Bacteroidaceae,taxonomy,Bacteroidaceae,0,0,1,0,0,D,insufficient
+taxonomy::Bacteroidales,taxonomy,Bacteroidales,0,2,0,0,2,D,consistent_protective
+taxonomy::Bacteroides,taxonomy,Bacteroides,4,2,0,1,5,A,inconsistent
+taxonomy::Bacteroides 2,taxonomy,Bacteroides 2,0,0,1,0,0,D,insufficient
+taxonomy::Bacteroides caccae,taxonomy,Bacteroides caccae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Bacteroides cellulosilyticus,taxonomy,Bacteroides cellulosilyticus,0,1,0,0,1,D,mostly_protective
+taxonomy::Bacteroides fragilis,taxonomy,Bacteroides fragilis,1,2,1,1,3,D,inconsistent
+taxonomy::Bacteroides ovatus,taxonomy,Bacteroides ovatus,0,2,0,0,2,D,consistent_protective
+"taxonomy::Bacteroides ovatus, Phocaeicola vulgatus",taxonomy,"Bacteroides ovatus, Phocaeicola vulgatus",0,1,0,0,1,D,mostly_protective
+taxonomy::Bacteroides thetaiotaomicron,taxonomy,Bacteroides thetaiotaomicron,1,1,0,1,2,D,inconsistent
+taxonomy::Bacteroides vulgatus,taxonomy,Bacteroides vulgatus,0,2,0,0,2,D,consistent_protective
+taxonomy::Bacteroidetes,taxonomy,Bacteroidetes,1,4,1,1,5,D,inconsistent
+taxonomy::Bacteroidota,taxonomy,Bacteroidota,2,0,0,0,2,D,consistent_harmful
+taxonomy::Bifidobacteria,taxonomy,Bifidobacteria,0,1,0,0,1,D,mostly_protective
+taxonomy::Bifidobacterium,taxonomy,Bifidobacterium,1,14,4,1,14,D,inconsistent
+taxonomy::Bifidobacterium animalis,taxonomy,Bifidobacterium animalis,1,0,0,0,1,D,mostly_harmful
+taxonomy::Bifidobacterium longum,taxonomy,Bifidobacterium longum,0,1,0,0,1,D,mostly_protective
+taxonomy::Bilophila,taxonomy,Bilophila,1,0,0,0,1,D,mostly_harmful
+taxonomy::Bilophila wadsworthia,taxonomy,Bilophila wadsworthia,2,0,0,0,2,D,consistent_harmful
+taxonomy::Blautia,taxonomy,Blautia,1,7,0,1,7,D,inconsistent
+taxonomy::Blautia fecis,taxonomy,Blautia fecis,0,1,0,0,1,D,mostly_protective
+taxonomy::Blautia hydrogenotrophica,taxonomy,Blautia hydrogenotrophica,1,0,0,0,1,D,mostly_harmful
+taxonomy::Blautia obeum,taxonomy,Blautia obeum,0,1,0,0,1,D,mostly_protective
+taxonomy::Blautia wexlerae,taxonomy,Blautia wexlerae,0,2,0,0,2,D,consistent_protective
+taxonomy::Campilobacterota,taxonomy,Campilobacterota,1,0,0,0,1,D,mostly_harmful
+taxonomy::Campylobacter,taxonomy,Campylobacter,1,1,0,1,2,D,inconsistent
+taxonomy::Campylobacterota,taxonomy,Campylobacterota,0,1,0,0,1,D,mostly_protective
+taxonomy::Candida,taxonomy,Candida,3,1,0,1,4,D,inconsistent
+"taxonomy::Candida albicans, Streptococcus",taxonomy,"Candida albicans, Streptococcus",1,0,0,0,1,D,mostly_harmful
+taxonomy::Capnocytophaga,taxonomy,Capnocytophaga,0,1,0,0,1,D,mostly_protective
+taxonomy::Christensenellaceae,taxonomy,Christensenellaceae,1,0,0,0,1,A,mostly_harmful
+taxonomy::Christensenellaceae R-7,taxonomy,Christensenellaceae R-7,0,1,0,0,1,D,mostly_protective
+taxonomy::Clostridia,taxonomy,Clostridia,0,0,1,0,0,D,insufficient
+taxonomy::Clostridiaceae,taxonomy,Clostridiaceae,1,1,1,1,2,D,inconsistent
+taxonomy::Clostridiales,taxonomy,Clostridiales,0,1,1,0,1,D,mostly_protective
+taxonomy::Clostridium hylemonae,taxonomy,Clostridium hylemonae,0,1,0,0,1,D,mostly_protective
+taxonomy::Clostridium innocuum,taxonomy,Clostridium innocuum,1,0,0,0,1,D,mostly_harmful
+taxonomy::Clostridium leptum,taxonomy,Clostridium leptum,2,1,0,1,3,A,inconsistent
+taxonomy::Clostridium perfringens,taxonomy,Clostridium perfringens,1,0,2,0,1,D,mostly_harmful
+taxonomy::Clostridium sensu stricto,taxonomy,Clostridium sensu stricto,1,0,0,0,1,D,mostly_harmful
+taxonomy::Collinsella,taxonomy,Collinsella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Coprococcus,taxonomy,Coprococcus,0,1,0,0,1,D,mostly_protective
+taxonomy::Cronobacter,taxonomy,Cronobacter,1,0,0,0,1,D,mostly_harmful
+taxonomy::Cutibacterium acnes,taxonomy,Cutibacterium acnes,0,1,0,0,1,D,mostly_protective
+taxonomy::Cyanobacteria,taxonomy,Cyanobacteria,0,1,0,0,1,D,mostly_protective
+taxonomy::Cytomegalovirus,taxonomy,Cytomegalovirus,0,0,1,0,0,D,insufficient
+taxonomy::Dorea,taxonomy,Dorea,1,0,1,0,1,D,mostly_harmful
+taxonomy::Dorea longicatena,taxonomy,Dorea longicatena,0,1,0,0,1,D,mostly_protective
+taxonomy::Dysosmobacter species,taxonomy,Dysosmobacter species,0,1,0,0,1,D,mostly_protective
+taxonomy::Eggerthella,taxonomy,Eggerthella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Eggerthella lenta,taxonomy,Eggerthella lenta,1,0,0,0,1,D,mostly_harmful
+taxonomy::Eggerthellaceae,taxonomy,Eggerthellaceae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Enterobacterales,taxonomy,Enterobacterales,1,0,0,0,1,D,mostly_harmful
+taxonomy::Enterobacterales abundance,taxonomy,Enterobacterales abundance,0,0,1,0,0,D,insufficient
+taxonomy::Enterobacteriaceae,taxonomy,Enterobacteriaceae,13,1,3,1,14,A,inconsistent
+taxonomy::Enterococcaceae,taxonomy,Enterococcaceae,2,0,0,0,2,D,consistent_harmful
+taxonomy::Enterococcus,taxonomy,Enterococcus,16,5,0,1,19,A,inconsistent
+taxonomy::Enterococcus domination,taxonomy,Enterococcus domination,1,0,0,0,1,A,mostly_harmful
+taxonomy::Enterococcus domination without VRE,taxonomy,Enterococcus domination without VRE,1,0,0,0,1,A,mostly_harmful
+taxonomy::Enterococcus faecalis,taxonomy,Enterococcus faecalis,2,0,0,0,2,D,consistent_harmful
+taxonomy::Enterococcus faecium,taxonomy,Enterococcus faecium,2,0,0,0,2,D,consistent_harmful
+taxonomy::Enterococcus relative abundance,taxonomy,Enterococcus relative abundance,1,0,0,0,1,D,mostly_harmful
+taxonomy::Erysipelatoclostridium,taxonomy,Erysipelatoclostridium,1,0,0,0,1,D,mostly_harmful
+taxonomy::Erysipelotrichaceae,taxonomy,Erysipelotrichaceae,1,0,0,0,1,A,mostly_harmful
+taxonomy::Erysipelotrichaceae UCG-003,taxonomy,Erysipelotrichaceae UCG-003,0,1,0,0,1,D,mostly_protective
+taxonomy::Escherichia,taxonomy,Escherichia,7,2,0,1,8,D,inconsistent
+taxonomy::Escherichia coli,taxonomy,Escherichia coli,4,0,4,0,4,A,consistent_harmful
+taxonomy::Escherichia/Shigella,taxonomy,Escherichia/Shigella,2,0,1,0,2,D,consistent_harmful
+taxonomy::Escherichia/Shigella and Klebsiella,taxonomy,Escherichia/Shigella and Klebsiella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Escherichia_Shigella,taxonomy,Escherichia_Shigella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Eubacterium,taxonomy,Eubacterium,0,2,1,0,2,D,consistent_protective
+taxonomy::Eubacterium rectale,taxonomy,Eubacterium rectale,0,0,1,0,0,D,insufficient
+taxonomy::Eubacterium ventriosum,taxonomy,Eubacterium ventriosum,0,1,0,0,1,D,mostly_protective
+taxonomy::Exon7 variant,taxonomy,Exon7 variant,1,0,0,0,1,D,mostly_harmful
+taxonomy::Faecalibacterium,taxonomy,Faecalibacterium,0,9,1,0,9,A,consistent_protective
+taxonomy::Faecalibacterium prausnitzii,taxonomy,Faecalibacterium prausnitzii,1,4,2,1,5,D,inconsistent
+taxonomy::Firmicutes,taxonomy,Firmicutes,0,9,0,0,9,D,consistent_protective
+taxonomy::Firmicutes/Bacteroidetes ratio,taxonomy,Firmicutes/Bacteroidetes ratio,0,1,0,0,1,D,mostly_protective
+taxonomy::Flavonifractor plautii,taxonomy,Flavonifractor plautii,0,1,0,0,1,D,mostly_protective
+taxonomy::Francisella,taxonomy,Francisella,0,1,0,0,1,D,mostly_protective
+taxonomy::Fusobacteriaceae,taxonomy,Fusobacteriaceae,0,0,2,0,0,D,insufficient
+"taxonomy::Fusobacteriota, Actinobacteriota",taxonomy,"Fusobacteriota, Actinobacteriota",0,1,0,0,1,D,mostly_protective
+taxonomy::Fusobacterium nucleatum,taxonomy,Fusobacterium nucleatum,2,0,0,0,2,D,consistent_harmful
+taxonomy::Fusobacterium varium,taxonomy,Fusobacterium varium,1,0,0,0,1,D,mostly_harmful
+taxonomy::Gemella,taxonomy,Gemella,1,0,1,0,1,D,mostly_harmful
+taxonomy::Gemmiger,taxonomy,Gemmiger,0,1,0,0,1,D,mostly_protective
+taxonomy::Gemmiger formicilis,taxonomy,Gemmiger formicilis,0,0,1,0,0,D,insufficient
+taxonomy::Gordonibacter pamelaeae,taxonomy,Gordonibacter pamelaeae,0,1,0,0,1,D,mostly_protective
+taxonomy::Gram-negative bacteria,taxonomy,Gram-negative bacteria,1,0,0,0,1,D,mostly_harmful
+taxonomy::Gram-positive bacteria,taxonomy,Gram-positive bacteria,0,1,0,0,1,D,mostly_protective
+taxonomy::H346Q variant,taxonomy,H346Q variant,0,0,1,0,0,D,insufficient
+taxonomy::Haemophilus,taxonomy,Haemophilus,2,0,0,0,2,D,consistent_harmful
+taxonomy::Haemophilus influenzae,taxonomy,Haemophilus influenzae,0,0,1,0,0,D,insufficient
+taxonomy::K types,taxonomy,K types,0,0,1,0,0,D,insufficient
+taxonomy::KPC carbapenemase,taxonomy,KPC carbapenemase,1,0,0,0,1,D,mostly_harmful
+taxonomy::Kineothrix,taxonomy,Kineothrix,0,1,0,0,1,D,mostly_protective
+taxonomy::Klebsiella,taxonomy,Klebsiella,3,2,1,1,5,A,inconsistent
+taxonomy::Klebsiella pneumoniae,taxonomy,Klebsiella pneumoniae,5,0,2,0,5,D,consistent_harmful
+taxonomy::Klebsiella pneumoniae K types,taxonomy,Klebsiella pneumoniae K types,0,0,1,0,0,D,insufficient
+taxonomy::Klebsiella spp.,taxonomy,Klebsiella spp.,2,0,1,0,2,D,consistent_harmful
+taxonomy::L293R variant,taxonomy,L293R variant,1,0,0,0,1,D,mostly_harmful
+taxonomy::Lachnospira,taxonomy,Lachnospira,0,0,1,0,0,D,insufficient
+taxonomy::Lachnospiraceae,taxonomy,Lachnospiraceae,0,3,2,0,3,D,consistent_protective
+taxonomy::Lactobacillaceae,taxonomy,Lactobacillaceae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Lactobacillales,taxonomy,Lactobacillales,1,0,0,0,1,D,mostly_harmful
+taxonomy::Lactobacillus,taxonomy,Lactobacillus,3,5,3,1,7,D,inconsistent
+taxonomy::Lactobacillus fermentum,taxonomy,Lactobacillus fermentum,0,0,1,0,0,D,insufficient
+taxonomy::Lactobacillus gasseri,taxonomy,Lactobacillus gasseri,0,0,1,0,0,D,insufficient
+taxonomy::Lactobacillus salivarius,taxonomy,Lactobacillus salivarius,0,1,0,0,1,D,mostly_protective
+taxonomy::Lawsonibacter,taxonomy,Lawsonibacter,0,0,2,0,0,D,insufficient
+taxonomy::Malassezia globosa,taxonomy,Malassezia globosa,0,1,0,0,1,D,mostly_protective
+taxonomy::Mediterraneibacter,taxonomy,Mediterraneibacter,1,0,0,0,1,D,mostly_harmful
+taxonomy::Megamonas,taxonomy,Megamonas,0,0,1,0,0,D,insufficient
+taxonomy::Megasphera,taxonomy,Megasphera,0,1,0,0,1,D,mostly_protective
+taxonomy::Meyerozyma caribbica,taxonomy,Meyerozyma caribbica,0,1,0,0,1,D,mostly_protective
+taxonomy::Moraxella,taxonomy,Moraxella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Mycobacterium,taxonomy,Mycobacterium,1,0,0,0,1,D,mostly_harmful
+taxonomy::Negativicutes,taxonomy,Negativicutes,0,1,0,0,1,D,mostly_protective
+taxonomy::Neisseria,taxonomy,Neisseria,0,0,1,0,0,D,insufficient
+taxonomy::Odoribacter laneus,taxonomy,Odoribacter laneus,0,1,0,0,1,D,mostly_protective
+taxonomy::Oscillibacter,taxonomy,Oscillibacter,0,0,1,0,0,D,insufficient
+taxonomy::Oscillospiraceae,taxonomy,Oscillospiraceae,0,0,2,0,0,D,insufficient
+taxonomy::Parabacteroides,taxonomy,Parabacteroides,1,0,0,0,1,D,mostly_harmful
+taxonomy::Parabacteroides distasonis,taxonomy,Parabacteroides distasonis,0,1,0,0,1,D,mostly_protective
+taxonomy::Parasutterella,taxonomy,Parasutterella,0,1,0,0,1,D,mostly_protective
+taxonomy::Pasteurellaceae,taxonomy,Pasteurellaceae,0,0,1,0,0,D,insufficient
+taxonomy::Peptococcaceae,taxonomy,Peptococcaceae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Peptoniphilus,taxonomy,Peptoniphilus,1,0,0,0,1,D,mostly_harmful
+taxonomy::Peptostreptococcus stomatis,taxonomy,Peptostreptococcus stomatis,0,0,1,0,0,D,insufficient
+taxonomy::Plesiomonas shigelloides,taxonomy,Plesiomonas shigelloides,0,0,1,0,0,D,insufficient
+taxonomy::Pneumocystis jirovecii,taxonomy,Pneumocystis jirovecii,1,0,1,0,1,B,mostly_harmful
+taxonomy::Prevotella,taxonomy,Prevotella,1,4,2,1,5,A,inconsistent
+taxonomy::Prevotella copri,taxonomy,Prevotella copri,0,2,0,0,2,D,consistent_protective
+taxonomy::Prevotellaceae,taxonomy,Prevotellaceae,0,1,0,0,1,D,mostly_protective
+taxonomy::Propioniciclav,taxonomy,Propioniciclav,1,0,0,0,1,D,mostly_harmful
+taxonomy::Proteobacteria,taxonomy,Proteobacteria,10,2,0,1,12,A,inconsistent
+taxonomy::Pseudomonadota,taxonomy,Pseudomonadota,1,0,0,0,1,D,mostly_harmful
+taxonomy::Pseudomonas,taxonomy,Pseudomonas,1,0,0,0,1,D,mostly_harmful
+taxonomy::Pseudomonas aeruginosa,taxonomy,Pseudomonas aeruginosa,1,0,0,0,1,D,mostly_harmful
+taxonomy::Roseburia,taxonomy,Roseburia,0,3,1,0,2,D,consistent_protective
+taxonomy::Roseburia hominis,taxonomy,Roseburia hominis,0,1,0,0,1,D,mostly_protective
+taxonomy::Rothia,taxonomy,Rothia,0,0,1,0,0,D,insufficient
+taxonomy::Rothia mucilaginosa,taxonomy,Rothia mucilaginosa,1,0,0,0,1,D,mostly_harmful
+taxonomy::Ruminococcaceae,taxonomy,Ruminococcaceae,0,2,1,0,2,D,consistent_protective
+taxonomy::Ruminococcus,taxonomy,Ruminococcus,2,2,1,1,4,D,inconsistent
+taxonomy::Ruminococcus bromii,taxonomy,Ruminococcus bromii,0,2,1,0,2,D,consistent_protective
+taxonomy::SARS-CoV-2,taxonomy,SARS-CoV-2,0,0,1,0,0,D,insufficient
+taxonomy::SCFA-producing bacteria,taxonomy,SCFA-producing bacteria,0,1,1,0,1,B,mostly_protective
+taxonomy::Saccharomyces,taxonomy,Saccharomyces,2,0,0,0,2,D,consistent_harmful
+taxonomy::Saccharomyces cerevisiae,taxonomy,Saccharomyces cerevisiae,1,0,0,0,1,D,mostly_harmful
+taxonomy::Salmonella Typhimurium,taxonomy,Salmonella Typhimurium,0,0,1,0,0,D,insufficient
+taxonomy::Staphylococcus,taxonomy,Staphylococcus,2,0,0,0,2,D,consistent_harmful
+taxonomy::Staphylococcus aureus,taxonomy,Staphylococcus aureus,2,0,1,0,2,D,consistent_harmful
+taxonomy::Staphylococcus hominis,taxonomy,Staphylococcus hominis,0,1,0,0,1,D,mostly_protective
+taxonomy::Streptococcaceae,taxonomy,Streptococcaceae,2,0,0,0,2,D,consistent_harmful
+taxonomy::Streptococcus,taxonomy,Streptococcus,1,0,1,0,1,D,mostly_harmful
+taxonomy::Streptococcus anginosus,taxonomy,Streptococcus anginosus,2,0,0,0,2,D,consistent_harmful
+taxonomy::Streptococcus gordonii,taxonomy,Streptococcus gordonii,1,0,0,0,1,D,mostly_harmful
+taxonomy::Sutterella,taxonomy,Sutterella,1,0,0,0,1,D,mostly_harmful
+taxonomy::Tannerelleaceae,taxonomy,Tannerelleaceae,0,1,0,0,1,D,mostly_protective
+taxonomy::Tenericutes,taxonomy,Tenericutes,0,0,1,0,0,D,insufficient
+taxonomy::Turicibacter,taxonomy,Turicibacter,0,0,1,0,0,D,insufficient
+taxonomy::Varicella-zoster virus,taxonomy,Varicella-zoster virus,0,0,1,0,0,D,insufficient
+taxonomy::Veillonella,taxonomy,Veillonella,1,0,1,0,1,D,mostly_harmful
+taxonomy::Veillonellaceae,taxonomy,Veillonellaceae,0,0,3,0,0,D,insufficient
+taxonomy::Verrucomicrobia,taxonomy,Verrucomicrobia,1,0,0,0,1,D,mostly_harmful
+taxonomy::Verrucomicrobiota,taxonomy,Verrucomicrobiota,1,0,0,0,1,D,mostly_harmful
+taxonomy::anaerobic bacteria,taxonomy,anaerobic bacteria,1,0,0,0,1,D,mostly_harmful
+taxonomy::antibiotic resistance genes,taxonomy,antibiotic resistance genes,1,0,1,0,1,D,mostly_harmful
+taxonomy::bacteremia incidence,taxonomy,bacteremia incidence,0,1,0,0,1,D,mostly_protective
+taxonomy::beneficial bacteria,taxonomy,beneficial bacteria,0,1,0,0,1,D,mostly_protective
+taxonomy::butyrate kinase,taxonomy,butyrate kinase,0,1,0,0,1,D,mostly_protective
+taxonomy::carbapenem-resistant Enterobacteriaceae colonization,taxonomy,carbapenem-resistant Enterobacteriaceae colonization,1,0,0,0,1,D,mostly_harmful
+"taxonomy::death or clinical, culture-proven infection",taxonomy,"death or clinical, culture-proven infection",0,0,1,0,0,D,insufficient
+taxonomy::fiber intake-associated taxa,taxonomy,fiber intake-associated taxa,0,1,0,0,1,D,mostly_protective
+taxonomy::gut colonization with pathogenic bacteria,taxonomy,gut colonization with pathogenic bacteria,0,0,1,0,0,D,insufficient
+taxonomy::gut microbial composition,taxonomy,gut microbial composition,0,0,1,0,0,D,insufficient
+taxonomy::gut microbiome disruption,taxonomy,gut microbiome disruption,0,0,1,0,0,D,insufficient
+taxonomy::high Enterobacterales abundance,taxonomy,high Enterobacterales abundance,1,0,0,0,1,D,mostly_harmful
+taxonomy::inner-colonic microbiota,taxonomy,inner-colonic microbiota,0,0,1,0,0,D,insufficient
+taxonomy::intestinal microbiome,taxonomy,intestinal microbiome,0,0,1,0,0,D,insufficient
+taxonomy::metabolic pathways,taxonomy,metabolic pathways,0,0,1,0,0,D,insufficient
+taxonomy::microbial diversity,taxonomy,microbial diversity,1,0,0,0,1,B,mostly_harmful
+taxonomy::microbial taxa,taxonomy,microbial taxa,0,0,1,0,0,D,insufficient
+taxonomy::pathogen detection rate,taxonomy,pathogen detection rate,0,1,0,0,1,D,mostly_protective
+taxonomy::proinflammatory bacteria,taxonomy,proinflammatory bacteria,1,0,0,0,1,D,mostly_harmful
+"taxonomy::proton-pump inhibitors, metformin, antibiotics, laxatives",taxonomy,"proton-pump inhibitors, metformin, antibiotics, laxatives",0,0,1,0,0,D,insufficient
+taxonomy::reduction of obligate anaerobes,taxonomy,reduction of obligate anaerobes,0,0,1,0,0,D,insufficient
+taxonomy::relative abundance of short-chain fatty acid producers,taxonomy,relative abundance of short-chain fatty acid producers,0,1,0,0,1,D,mostly_protective
+taxonomy::short-chain fatty acid producers,taxonomy,short-chain fatty acid producers,0,0,1,0,0,D,insufficient
+taxonomy::short-chain fatty acid-producing taxa,taxonomy,short-chain fatty acid-producing taxa,0,0,1,0,0,D,insufficient
+taxonomy::tryptophanase,taxonomy,tryptophanase,1,0,0,0,1,D,mostly_harmful
+taxonomy::unhealthy microbial species,taxonomy,unhealthy microbial species,1,0,0,0,1,D,mostly_harmful
+taxonomy::urease,taxonomy,urease,1,0,0,0,1,D,mostly_harmful
+taxonomy::uricase,taxonomy,uricase,1,0,0,0,1,D,mostly_harmful
+taxonomy::vancomycin-resistant Enterococcus colonization,taxonomy,vancomycin-resistant Enterococcus colonization,1,0,0,0,1,A,mostly_harmful
+taxonomy::virulence genes,taxonomy,virulence genes,1,0,0,0,1,D,mostly_harmful

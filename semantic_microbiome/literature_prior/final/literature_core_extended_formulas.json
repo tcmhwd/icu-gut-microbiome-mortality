@@ -1,0 +1,32 @@
+{
+  "generated": "2026-08-14",
+  "bugfix_note": "2026-08-14: Gangnam columns now renamed via harmonized/sample_id_mapping.csv (patient_id_clinical) instead of raw sample_metadata.tsv sample_id (was a mixed scheme, silently NaN'd 192/302 Gangnam patients in the first version).",
+  "core_inclusion_rule": "Tier A/B literature feature AND has EXACT/PARENT_CHILD/SYNONYM mapping to MetaPhlAn, MAG(GTDB), HUMAnN, or RGI in feature_ontology_mapping.csv",
+  "individual_core_features": {
+    "Literature_alpha_diversity_shannon": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Enterococcus_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Klebsiella_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Escherichia_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Faecalibacterium_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Prevotella_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Bacteroides_genus_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Christensenellaceae_family_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Erysipelotrichaceae_family_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Proteobacteria_phylum_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Clostridium_leptum_species_relabund": "literal MetaPhlAn relative abundance / computed diversity index",
+    "Literature_Bacteroidetes_Firmicutes_ratio": "literal MetaPhlAn relative abundance / computed diversity index"
+  },
+  "combined_scores": {
+    "Literature_pathobiont_burden": "sum(genus_relabund[Enterococcus, Klebsiella, Escherichia])",
+    "Literature_obligate_anaerobe_preservation": "sum(genus_relabund[Faecalibacterium, Prevotella])",
+    "Literature_facultative_to_obligate_anaerobe_balance": "(pathobiont_burden + 1e-6) / (obligate_anaerobe_preservation + 1e-6)",
+    "Genome_resolved_pathobiont_MAG_burden": "sum(CoverM_MAG_relabund[MAG in representative catalog AND GTDB genus in {Enterococcus,Klebsiella,Escherichia}])",
+    "Literature_ARG_burden_broad_MAGlevel": "sum(MAG-level RGI drug class relabund, all 37 classes) -- Extended only, not literature-tier-anchored"
+  },
+  "n_core_features": 16,
+  "n_extended_features": 17,
+  "pathobiont_mag_count": 146,
+  "n_gangnam": 302,
+  "n_public": 338,
+  "n_gangnam_complete_core": 302
+}

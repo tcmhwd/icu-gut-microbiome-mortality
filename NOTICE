@@ -1,0 +1,14 @@
+NOTICE
+
+The source code in this repository is released under the MIT License (see LICENSE).
+
+The literature-derived reference files under semantic_microbiome/literature_prior/final/
+(in particular the `evidence_passage` column of manual_review_queue.csv) contain short
+excerpts quoted from published articles, identified by PMID. These excerpts remain under
+the copyright of their original authors and publishers. They are reproduced only as short
+quotations for the purpose of documenting the evidence review, and they are NOT covered
+by the MIT grant.
+
+The passages in manual_review_queue.csv are the rows whose LLM-extracted passage did not
+verify against the source text during automated checking; they may therefore not be
+verbatim text of the cited article. Consult the original article for the exact wording.

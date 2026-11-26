@@ -5,6 +5,7 @@ type: software
 license: MIT
 repository-code: "https://github.com/tcmhwd/icu-gut-microbiome-mortality"
 version: "1.0.1"
+doi: "10.5281/zenodo.24550624"
 date-released: "2026-11-26"
 authors:
   - family-names: Kwon

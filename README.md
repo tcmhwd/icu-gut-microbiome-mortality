@@ -1,8 +1,10 @@
 # Limited incremental value of early gut microbiome profiles for predicting in-hospital mortality in critically ill adults
 
+[![DOI](https://zenodo.org/badge/1472709144.svg)](https://doi.org/10.5281/zenodo.24550623)
+
 Analysis code for the manuscript of the same title (Kwon J-G, Lee JH, Shin JH, Choi MH; submitted to *Critical Care*).
 
-Release **v1.0.1**. This repository contains the final analysis scripts behind the numbers reported in the manuscript, its Supplementary Methods, Tables S1 to S9 and Figures S1 to S5, plus the superseded script versions whose outputs those final scripts still read. It is not a complete push-button reproduction: Hospital A per-sample processing ran outside this project, a few reported numbers have no producing script, and some inputs are curated tables (see "Known gaps"). Scripts are released **verbatim** as they were run; the only edits are the redactions and fail-loud checks listed under "Redactions" below, and 1 file written for this release is marked as such in MANIFEST.sha256. No data are included.
+Release **v1.0.1** (archived at Zenodo: https://doi.org/10.5281/zenodo.24550624; all versions: https://doi.org/10.5281/zenodo.24550623). This repository contains the final analysis scripts behind the numbers reported in the manuscript, its Supplementary Methods, Tables S1 to S9 and Figures S1 to S5, plus the superseded script versions whose outputs those final scripts still read. It is not a complete push-button reproduction: Hospital A per-sample processing ran outside this project, a few reported numbers have no producing script, and some inputs are curated tables (see "Known gaps"). Scripts are released **verbatim** as they were run; the only edits are the redactions and fail-loud checks listed under "Redactions" below, and 1 file written for this release is marked as such in MANIFEST.sha256. No data are included.
 
 ## What is included and what is not
 
